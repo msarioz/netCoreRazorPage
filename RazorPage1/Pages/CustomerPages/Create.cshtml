@@ -30,8 +30,7 @@
                 <td>@contact.Name</td>
                 <td>
                     <a asp-page="./Edit" asp-route-id="@contact.Id">edit</a>
-                    <button type="submit" asp-page-handler="delete" 
-                            asp-route-id="@contact.Id">delete</button>
+                    <button type="submit" asp-page-handler="delete" asp-route-id="@contact.Id">delete</button>
                 </td>
             </tr>
         }
